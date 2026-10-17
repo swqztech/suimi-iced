@@ -1,0 +1,9 @@
+[package]
+name = "suimi-iced"
+version = "0.1.0"
+edition = "2021"
+description = "随密 — iced 版本地随机密码 / 用户名 / 网名生成器"
+
+[dependencies]
+iced = { version = "0.14", features = ["wgpu"] }
+rand = "0.8"
